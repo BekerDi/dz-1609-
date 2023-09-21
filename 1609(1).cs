@@ -11,11 +11,16 @@ namespace lab1
         static void Main(string[] args)
         {
             Console.WriteLine("Упражнение 2.1");
+            Console.WriteLine("Написать программу, которая спрашивает имя пользователя, и затем
+приветствует пользователя по имени.");
             Console.WriteLine("Как Вас зовут?");
             string name = Console.ReadLine();
             Console.WriteLine("Здравствуй," + name + "!");
 
             Console.WriteLine("Задание 2.2");
+            Console.WriteLine("Написать программу, которой на вход подается два целых числа, на
+выходе – результат деления одного числа на другое. Предусмотреть обработку
+исключительной ситуации, возникающей при делении числа на ноль.");
             Console.WriteLine("Введите 2 числа");
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
@@ -34,6 +39,8 @@ namespace lab1
             }
 
             Console.WriteLine("Задание 2.3");
+            Console.WriteLine("Написать программу, которая решает квадратное уравнение.
+Входные данные – коэффициенты уравнения, выходные – найденные корни.") ;               
             bool t = true;
             Console.WriteLine("Введите коэффициенты уравнения");
 
@@ -82,6 +89,8 @@ namespace lab1
                 }
             }
             Console.WriteLine("Задание 2.4");
+            Console.WriteLine("Прочитать букву с экрана и вывести на печать следующую за ней
+букву в алфавитном порядке.");
             Console.WriteLine("Введите букву (английский алфавит)");
             string l = Console.ReadLine();
             char letter = char.Parse(l);
